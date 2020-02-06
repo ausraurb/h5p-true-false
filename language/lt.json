@@ -1,0 +1,147 @@
+{
+  "semantics": [
+    {
+      "label": "Medija",
+      "fields": [
+        {
+          "label": "Tipas",
+          "description": "Pasirinkite medijos tipą, rodomą virš klausimo."
+        },
+        {
+          "label": "Išjungti vaizdo mastelio keitimą"
+        }
+      ]
+    },
+    {
+      "label": "Klausimas"
+    },
+    {
+      "label": "Teisingas atsakymas",
+      "options": [
+        {
+          "label": "Tiesa"
+        },
+        {
+          "label": "Netiesa"
+        }
+      ]
+    },
+    {
+      "label": "Naudotojo sąsajos vertimai Tiesa/Netiesa klausimams",
+      "fields": [
+        {
+          "label": "Keitimas Tiesa mygtukui",
+          "default": "Tiesa"
+        },
+        {
+          "label": "Keitimas Netiesa mygtukui",
+          "default": "Netiesa"
+        },
+        {
+          "label": "Tekstas grįžtamajam ryšiui",
+          "default": "Surinkote @score balų iš @total",
+          "description": "Grįžtamojo ryšio tekstas, kuriame galimi kintamieji: @score ir @total. Pavyzdžiui: 'Jūs surinkote @score balų iš @total visų galimų taškų'"
+        },
+        {
+          "label": "Keitimas \"Tikrinti\" mygtukui",
+          "default": "Tikrinti"
+        },
+        {
+          "label": "Keitimas \"Rodyti sprendimą\" mygtukui",
+          "default": "Rodyti sprendimą"
+        },
+        {
+          "label": "Keitimas \"Kartoti\" mygtukui",
+          "default": "Kartoti"
+        },
+        {
+          "label": "Keitimas Klaidingas atsakymas",
+          "default": "Klaidingas atsakymas"
+        },
+        {
+          "label": "Keitimas Teisingas atsakymas",
+          "default": "Teisingas atsakymas"
+        },
+        {
+          "label": "Tekstinis pateikimas kaip taškų juosta, naudojantiems skaitytuvą",
+          "default": "Surinkote :num balų iš :total"
+        }
+      ]
+    },
+    {
+      "label": "Užduoties elgesio nustatymai",
+      "description": "Šios parinktys leidžia valdyti užduoties sąveiką",
+      "fields": [
+        {
+          "label": "Įjungti \"Kartoti\" mygtuką"
+        },
+        {
+          "label": "Įjungti \"Rodyti sprendimą\" mygtuką"
+        },
+        {
+          "label": "Įjungti \"Tikrinti\" mygtuką"
+        },
+        {
+          "label": "Rodyti patvirtinimo langą \"Tikrinti\""
+        },
+        {
+          "label": "Rodyti patvirtinimo \"Kartoti\""
+        },
+        {
+          "label": "Automatiškai tikrinti atsakymą,
+          "description": "Pastaba: įjungus šią parinktį, pasikeis prieinamumas"
+        },
+        {
+          "label": "Grįžtamasis ryšys teisingam atsakymui",
+          "description": "Tai pakeis numatytąjį grįžtamojo ryšio tekstą. Galimi kintamieji: @score ir @total"
+        },
+        {
+          "label": "Grįžtamasis ryšys klaidingam atsakymui",
+          "description": "Tai pakeis numatytąjį grįžtamojo ryšio tekstą. Galimi kintamieji: @score and @total"
+        }
+      ]
+    },
+    {
+      "label": "Tikrinti patvirtinimo langas",
+      "fields": [
+        {
+          "label": "Antraštės tekstas",
+          "default": "Baigti?"
+        },
+        {
+          "label": "Visas tekstas",
+          "default": "Ar tikrai norite baigti?"
+        },
+        {
+          "label": "Keitimas Atšaukti mygtukui",
+          "default": "Atšaukti"
+        },
+        {
+          "label": "Keitimas Baigti mygtukui",
+          "default": "Baigti"
+        }
+      ]
+    },
+    {
+      "label": "Kartoti patvirtinimo langas",
+      "fields": [
+        {
+          "label": "Antraštės tekstas",
+          "default": "Kartoti?"
+        },
+        {
+          "label": "Visas tekstas",
+          "default": "Ar tikrai norite bandyti dar kartą?"
+        },
+        {
+          "label": "Keitimas Atšaukti mygtukui",
+          "default": "Atšaukti"
+        },
+        {
+          "label": "Keitimas Pateikti mygtukui",
+          "default": "Pateikti"
+        }
+      ]
+    }
+  ]
+}
